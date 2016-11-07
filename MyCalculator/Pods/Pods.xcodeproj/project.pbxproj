@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E528D890E3B32D53D963CE1417BA4D8 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 447A258468D8F058B82A053687CBE6C7 /* MBProgressHUD-dummy.m */; };
+		20971FE6D8F70A448AC71F407DB0483E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		2A76DB3CD21C569626495DE7D69D7B0C /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 325E29C69AEFCFA9B54D9EB1FE217C03 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		344D1EB53F1F411A3F6E45960BF364CA /* AFViewShaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CADECF23119643D03AD618672744978 /* AFViewShaker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3CF05E5096C3CA6081B16EA72A35E661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		535C3BD688BA2CDEC5DAE361DDF5D7B0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 806014580C483B1F8B33ED47F5100900 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		60C830B9E282279D43FA3E0E5DE07584 /* JJMaterialTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C5905ABA1525DFBB50CF6300D16F5 /* JJMaterialTextField-dummy.m */; };
+		6702C8B678D52CFE703762D4D73CE58B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */; };
+		8199AC11C709B6F82C1768553193F8DE /* JJMaterialTextfield.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A40F0F12D71A6FD8737D652D918A971 /* JJMaterialTextfield.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8855F73DF0D7263AD1F6CA8AA276D94F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		A8EEB4D4A0AC8425A8B2FC0852D46444 /* Pods-MyCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0DF10A59C5E24B68046D58816B8966 /* Pods-MyCalculator-dummy.m */; };
+		C62CF850237DB4D6338E30472245FF6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		CF4606042A9215E3F3ED85BBFE8D8703 /* AFViewShaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 799E569E321ECC6E6857DECA91C70822 /* AFViewShaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD20621AF081165F548936F1DB822716 /* edit_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5AD403AFBED1C443ABC1A75E51778B /* edit_button.png */; };
+		E1C6AF67498CCCD6429492F99D1D08FD /* AFViewShaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D010D4BE3C58FC5FF619237F169DF4 /* AFViewShaker-dummy.m */; };
+		E52CF310FD41F95BAA6B7E2C90F8226E /* JJMaterialTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC90105F143659A71246791B987DB9 /* JJMaterialTextfield.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B262155824B23D5D01FA1BFB65DDF04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B4D920821323688A123ECA6628C19A1;
+			remoteInfo = JJMaterialTextField;
+		};
+		537B2C907B7CD42FE1DFAFC66A241F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 175B076ED45EB1A3E40F58BA14036467;
+			remoteInfo = MBProgressHUD;
+		};
+		57D066CE518043FF16A49B6AFE66F7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F5E42437E70E2F0D2211C923EC910F7;
+			remoteInfo = AFViewShaker;
+		};
+		5CF988E29080678E6B835A236450BAB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF04B7E1274DC617E8B8C57455C3D0D;
+			remoteInfo = "JJMaterialTextField-JJMaterialTextField";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05D010D4BE3C58FC5FF619237F169DF4 /* AFViewShaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFViewShaker-dummy.m"; sourceTree = "<group>"; };
+		0A5AD5177214262DAC11D5B10920B572 /* Pods-MyCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B2C5905ABA1525DFBB50CF6300D16F5 /* JJMaterialTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JJMaterialTextField-dummy.m"; sourceTree = "<group>"; };
+		2F0DF10A59C5E24B68046D58816B8966 /* Pods-MyCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyCalculator-dummy.m"; sourceTree = "<group>"; };
+		30A6389FC6BD8CC807BDD2F393C0D5CC /* Pods-MyCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		325E29C69AEFCFA9B54D9EB1FE217C03 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		3FE485303CB437A675B34FB791E41111 /* libJJMaterialTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJJMaterialTextField.a; path = libJJMaterialTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		447A258468D8F058B82A053687CBE6C7 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		590C0C02FA8E8DE0797BD85F1C250602 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		5A2875DD04D91F3DEBF8BA9D59328793 /* Pods-MyCalculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyCalculator-frameworks.sh"; sourceTree = "<group>"; };
+		66BF071ABEBFBFD4AB0E34643644A843 /* AFViewShaker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFViewShaker.xcconfig; sourceTree = "<group>"; };
+		6A40F0F12D71A6FD8737D652D918A971 /* JJMaterialTextfield.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JJMaterialTextfield.h; path = Pod/Classes/JJMaterialTextfield.h; sourceTree = "<group>"; };
+		7902D361685BD60CDC62F95F84876B09 /* libAFViewShaker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFViewShaker.a; path = libAFViewShaker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		799E569E321ECC6E6857DECA91C70822 /* AFViewShaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFViewShaker.h; path = AFViewShaker/AFViewShaker.h; sourceTree = "<group>"; };
+		7ADE4C54EAA64CA7F0C010BBCF1103C2 /* AFViewShaker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFViewShaker-prefix.pch"; sourceTree = "<group>"; };
+		7CADECF23119643D03AD618672744978 /* AFViewShaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFViewShaker.m; path = AFViewShaker/AFViewShaker.m; sourceTree = "<group>"; };
+		7FFC90105F143659A71246791B987DB9 /* JJMaterialTextfield.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JJMaterialTextfield.m; path = Pod/Classes/JJMaterialTextfield.m; sourceTree = "<group>"; };
+		806014580C483B1F8B33ED47F5100900 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8B5AD403AFBED1C443ABC1A75E51778B /* edit_button.png */ = {isa = PBXFileReference; includeInIndex = 1; name = edit_button.png; path = Pod/Assets/edit_button.png; sourceTree = "<group>"; };
+		9291F9AA78E141F5A18DD38BEA5690C3 /* JJMaterialTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJMaterialTextField-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B6904FF0771CFCE1F801AE7A3E62C36 /* Pods-MyCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AB1999360897EE7FFD4105AF1F043645 /* ResourceBundle-JJMaterialTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JJMaterialTextField-Info.plist"; sourceTree = "<group>"; };
+		AE066A5CF01B550A94CD71B7FA7DA2EC /* libPods-MyCalculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MyCalculator.a"; path = "libPods-MyCalculator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC58CCD0069B28C1F9F387CA66BEF740 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		CF039804B2542E3495189272828F1BA2 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E267B721CCD8DF33CA5232B557697C64 /* Pods-MyCalculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyCalculator-resources.sh"; sourceTree = "<group>"; };
+		E4A4CA3B7DCA35A4CE9636C5C857AC6F /* JJMaterialTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJMaterialTextField.xcconfig; sourceTree = "<group>"; };
+		E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		EB8DCA2D7D6073227456D6340F07022E /* Pods-MyCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		FAF6EB1C1446B91FBAE88422E7E4D6A9 /* JJMaterialTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JJMaterialTextField.bundle; path = JJMaterialTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1091645CD331B9F587404A708D3C8A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8855F73DF0D7263AD1F6CA8AA276D94F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12070984FA8985EF77A932BEC1CF2A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6702C8B678D52CFE703762D4D73CE58B /* CoreGraphics.framework in Frameworks */,
+				C62CF850237DB4D6338E30472245FF6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42199EDDD64380EFDDA675AD73AB4DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20971FE6D8F70A448AC71F407DB0483E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAEA02FCBFAA2862153B20316EA96CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF05E5096C3CA6081B16EA72A35E661 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF2266260283D215D48BE596DA2FF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CE2E560EBD207129E5B7E70E1331B5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B5AD403AFBED1C443ABC1A75E51778B /* edit_button.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0F064D04E379CE8E07B6BDB97C593316 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */,
+				A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1CB198AFF37E059E4291EACF008E29D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6EB1C1446B91FBAE88422E7E4D6A9 /* JJMaterialTextField.bundle */,
+				7902D361685BD60CDC62F95F84876B09 /* libAFViewShaker.a */,
+				3FE485303CB437A675B34FB791E41111 /* libJJMaterialTextField.a */,
+				CF039804B2542E3495189272828F1BA2 /* libMBProgressHUD.a */,
+				AE066A5CF01B550A94CD71B7FA7DA2EC /* libPods-MyCalculator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F064D04E379CE8E07B6BDB97C593316 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BE32A9F0B230E90610D1F3C626DBC13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66BF071ABEBFBFD4AB0E34643644A843 /* AFViewShaker.xcconfig */,
+				05D010D4BE3C58FC5FF619237F169DF4 /* AFViewShaker-dummy.m */,
+				7ADE4C54EAA64CA7F0C010BBCF1103C2 /* AFViewShaker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFViewShaker";
+			sourceTree = "<group>";
+		};
+		63C4F071AE6FFC06BC89820F814F387A /* Pods-MyCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				0A5AD5177214262DAC11D5B10920B572 /* Pods-MyCalculator-acknowledgements.markdown */,
+				30A6389FC6BD8CC807BDD2F393C0D5CC /* Pods-MyCalculator-acknowledgements.plist */,
+				2F0DF10A59C5E24B68046D58816B8966 /* Pods-MyCalculator-dummy.m */,
+				5A2875DD04D91F3DEBF8BA9D59328793 /* Pods-MyCalculator-frameworks.sh */,
+				E267B721CCD8DF33CA5232B557697C64 /* Pods-MyCalculator-resources.sh */,
+				9B6904FF0771CFCE1F801AE7A3E62C36 /* Pods-MyCalculator.debug.xcconfig */,
+				EB8DCA2D7D6073227456D6340F07022E /* Pods-MyCalculator.release.xcconfig */,
+			);
+			name = "Pods-MyCalculator";
+			path = "Target Support Files/Pods-MyCalculator";
+			sourceTree = "<group>";
+		};
+		7279601E57F28A66864510E3D48C20C0 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				325E29C69AEFCFA9B54D9EB1FE217C03 /* MBProgressHUD.h */,
+				806014580C483B1F8B33ED47F5100900 /* MBProgressHUD.m */,
+				B7A6F57B19EA0D8AD82192E2133D7D8A /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		780D94C7618750185CA3CD27EC77713A /* JJMaterialTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6A40F0F12D71A6FD8737D652D918A971 /* JJMaterialTextfield.h */,
+				7FFC90105F143659A71246791B987DB9 /* JJMaterialTextfield.m */,
+				0CE2E560EBD207129E5B7E70E1331B5E /* Resources */,
+				DDDD058D99B85D0CD352433F1271F96D /* Support Files */,
+			);
+			name = JJMaterialTextField;
+			path = JJMaterialTextField;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D3E6CC8935DB4F811705F271EE5B1422 /* Pods */,
+				1CB198AFF37E059E4291EACF008E29D5 /* Products */,
+				FD45230A4265EB4682AF51D11F42B923 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9FA6B50B061E1DDFF39508A1C53248B2 /* AFViewShaker */ = {
+			isa = PBXGroup;
+			children = (
+				799E569E321ECC6E6857DECA91C70822 /* AFViewShaker.h */,
+				7CADECF23119643D03AD618672744978 /* AFViewShaker.m */,
+				5BE32A9F0B230E90610D1F3C626DBC13 /* Support Files */,
+			);
+			name = AFViewShaker;
+			path = AFViewShaker;
+			sourceTree = "<group>";
+		};
+		B7A6F57B19EA0D8AD82192E2133D7D8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				590C0C02FA8E8DE0797BD85F1C250602 /* MBProgressHUD.xcconfig */,
+				447A258468D8F058B82A053687CBE6C7 /* MBProgressHUD-dummy.m */,
+				BC58CCD0069B28C1F9F387CA66BEF740 /* MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		D3E6CC8935DB4F811705F271EE5B1422 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FA6B50B061E1DDFF39508A1C53248B2 /* AFViewShaker */,
+				780D94C7618750185CA3CD27EC77713A /* JJMaterialTextField */,
+				7279601E57F28A66864510E3D48C20C0 /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DDDD058D99B85D0CD352433F1271F96D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4A4CA3B7DCA35A4CE9636C5C857AC6F /* JJMaterialTextField.xcconfig */,
+				1B2C5905ABA1525DFBB50CF6300D16F5 /* JJMaterialTextField-dummy.m */,
+				9291F9AA78E141F5A18DD38BEA5690C3 /* JJMaterialTextField-prefix.pch */,
+				AB1999360897EE7FFD4105AF1F043645 /* ResourceBundle-JJMaterialTextField-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JJMaterialTextField";
+			sourceTree = "<group>";
+		};
+		FD45230A4265EB4682AF51D11F42B923 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C4F071AE6FFC06BC89820F814F387A /* Pods-MyCalculator */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B1CFD9FF85094F34D292D10337F61E95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4606042A9215E3F3ED85BBFE8D8703 /* AFViewShaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5D4F72EFBD02153776C5B36F54B16B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8199AC11C709B6F82C1768553193F8DE /* JJMaterialTextfield.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC33D369E9A80BFCC07EAB513251186 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A76DB3CD21C569626495DE7D69D7B0C /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		175B076ED45EB1A3E40F58BA14036467 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C66CB3E04875BC1C255326C7ADB2D78 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				FED59DE88F6C855E8E4E64782275A4C6 /* Sources */,
+				12070984FA8985EF77A932BEC1CF2A5D /* Frameworks */,
+				EFC33D369E9A80BFCC07EAB513251186 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = CF039804B2542E3495189272828F1BA2 /* libMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2B4D920821323688A123ECA6628C19A1 /* JJMaterialTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4018E5763DFDE7ED11873E80A53EC5 /* Build configuration list for PBXNativeTarget "JJMaterialTextField" */;
+			buildPhases = (
+				A1CA27E6D9349486391DA4C8D17673C6 /* Sources */,
+				7FAEA02FCBFAA2862153B20316EA96CA /* Frameworks */,
+				E5D4F72EFBD02153776C5B36F54B16B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AE8C54A618D1683E1C88B732D3F4FED /* PBXTargetDependency */,
+			);
+			name = JJMaterialTextField;
+			productName = JJMaterialTextField;
+			productReference = 3FE485303CB437A675B34FB791E41111 /* libJJMaterialTextField.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5F5E42437E70E2F0D2211C923EC910F7 /* AFViewShaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405199C03EC480FBDC7D75372D31B1CC /* Build configuration list for PBXNativeTarget "AFViewShaker" */;
+			buildPhases = (
+				4D951CEFF9B259BCF66DDC85199ADF6B /* Sources */,
+				42199EDDD64380EFDDA675AD73AB4DF4 /* Frameworks */,
+				B1CFD9FF85094F34D292D10337F61E95 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFViewShaker;
+			productName = AFViewShaker;
+			productReference = 7902D361685BD60CDC62F95F84876B09 /* libAFViewShaker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A3E6D35CAC33188A1D74EDA0B2E4507E /* Pods-MyCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522F40CF3AE0292F69C196BE07166AD0 /* Build configuration list for PBXNativeTarget "Pods-MyCalculator" */;
+			buildPhases = (
+				7CE7EE7EE092F52CADF958D473DBC633 /* Sources */,
+				1091645CD331B9F587404A708D3C8A11 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0518BFFD78E04AA10279DDDC60145DBC /* PBXTargetDependency */,
+				8C03AF83B4D9034E82E41B180EC6E206 /* PBXTargetDependency */,
+				07558F50FB3B58BBC029F2A154810CAA /* PBXTargetDependency */,
+			);
+			name = "Pods-MyCalculator";
+			productName = "Pods-MyCalculator";
+			productReference = AE066A5CF01B550A94CD71B7FA7DA2EC /* libPods-MyCalculator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EAF04B7E1274DC617E8B8C57455C3D0D /* JJMaterialTextField-JJMaterialTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7038AA417730F350CD16F29B20BEF4 /* Build configuration list for PBXNativeTarget "JJMaterialTextField-JJMaterialTextField" */;
+			buildPhases = (
+				BDF6A02173F03A299B29071AEDC38826 /* Sources */,
+				9EF2266260283D215D48BE596DA2FF5D /* Frameworks */,
+				F244471146549024F7729D8AF1636DA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JJMaterialTextField-JJMaterialTextField";
+			productName = "JJMaterialTextField-JJMaterialTextField";
+			productReference = FAF6EB1C1446B91FBAE88422E7E4D6A9 /* JJMaterialTextField.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1CB198AFF37E059E4291EACF008E29D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F5E42437E70E2F0D2211C923EC910F7 /* AFViewShaker */,
+				2B4D920821323688A123ECA6628C19A1 /* JJMaterialTextField */,
+				EAF04B7E1274DC617E8B8C57455C3D0D /* JJMaterialTextField-JJMaterialTextField */,
+				175B076ED45EB1A3E40F58BA14036467 /* MBProgressHUD */,
+				A3E6D35CAC33188A1D74EDA0B2E4507E /* Pods-MyCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F244471146549024F7729D8AF1636DA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD20621AF081165F548936F1DB822716 /* edit_button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D951CEFF9B259BCF66DDC85199ADF6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C6AF67498CCCD6429492F99D1D08FD /* AFViewShaker-dummy.m in Sources */,
+				344D1EB53F1F411A3F6E45960BF364CA /* AFViewShaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE7EE7EE092F52CADF958D473DBC633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8EEB4D4A0AC8425A8B2FC0852D46444 /* Pods-MyCalculator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1CA27E6D9349486391DA4C8D17673C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C830B9E282279D43FA3E0E5DE07584 /* JJMaterialTextField-dummy.m in Sources */,
+				E52CF310FD41F95BAA6B7E2C90F8226E /* JJMaterialTextfield.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6A02173F03A299B29071AEDC38826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED59DE88F6C855E8E4E64782275A4C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E528D890E3B32D53D963CE1417BA4D8 /* MBProgressHUD-dummy.m in Sources */,
+				535C3BD688BA2CDEC5DAE361DDF5D7B0 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0518BFFD78E04AA10279DDDC60145DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFViewShaker;
+			target = 5F5E42437E70E2F0D2211C923EC910F7 /* AFViewShaker */;
+			targetProxy = 57D066CE518043FF16A49B6AFE66F7DD /* PBXContainerItemProxy */;
+		};
+		07558F50FB3B58BBC029F2A154810CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 175B076ED45EB1A3E40F58BA14036467 /* MBProgressHUD */;
+			targetProxy = 537B2C907B7CD42FE1DFAFC66A241F67 /* PBXContainerItemProxy */;
+		};
+		6AE8C54A618D1683E1C88B732D3F4FED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JJMaterialTextField-JJMaterialTextField";
+			target = EAF04B7E1274DC617E8B8C57455C3D0D /* JJMaterialTextField-JJMaterialTextField */;
+			targetProxy = 5CF988E29080678E6B835A236450BAB0 /* PBXContainerItemProxy */;
+		};
+		8C03AF83B4D9034E82E41B180EC6E206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JJMaterialTextField;
+			target = 2B4D920821323688A123ECA6628C19A1 /* JJMaterialTextField */;
+			targetProxy = 1B262155824B23D5D01FA1BFB65DDF04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AD8174D60D3E3C838B3842E2B5A29C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66BF071ABEBFBFD4AB0E34643644A843 /* AFViewShaker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFViewShaker/AFViewShaker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4ECD94EB658408EAB639A8B305F4DA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590C0C02FA8E8DE0797BD85F1C250602 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		50578562CB4D9ABA8620420C08C638C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590C0C02FA8E8DE0797BD85F1C250602 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5FC9766A3827C71F59FE324C9AC84438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8DCA2D7D6073227456D6340F07022E /* Pods-MyCalculator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		69734C3F2B73905DAD4554DDAF1F3CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66BF071ABEBFBFD4AB0E34643644A843 /* AFViewShaker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFViewShaker/AFViewShaker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A27B9D025A0B94265F8F37C0FA5D0665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A4CA3B7DCA35A4CE9636C5C857AC6F /* JJMaterialTextField.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JJMaterialTextField";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JJMaterialTextField/ResourceBundle-JJMaterialTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = JJMaterialTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A4F1A5EED4BE5171EAE93A90391BE714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A4CA3B7DCA35A4CE9636C5C857AC6F /* JJMaterialTextField.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JJMaterialTextField";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JJMaterialTextField/ResourceBundle-JJMaterialTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = JJMaterialTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AFD51F844682558BF449E69C5BD1C159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A4CA3B7DCA35A4CE9636C5C857AC6F /* JJMaterialTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JJMaterialTextField/JJMaterialTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B7D10AF9CE99708F16DF28FDBB6420E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A4CA3B7DCA35A4CE9636C5C857AC6F /* JJMaterialTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JJMaterialTextField/JJMaterialTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BBF7BB827863A3533B4FFB3E802B20D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6904FF0771CFCE1F801AE7A3E62C36 /* Pods-MyCalculator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405199C03EC480FBDC7D75372D31B1CC /* Build configuration list for PBXNativeTarget "AFViewShaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69734C3F2B73905DAD4554DDAF1F3CA8 /* Debug */,
+				1AD8174D60D3E3C838B3842E2B5A29C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522F40CF3AE0292F69C196BE07166AD0 /* Build configuration list for PBXNativeTarget "Pods-MyCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF7BB827863A3533B4FFB3E802B20D4 /* Debug */,
+				5FC9766A3827C71F59FE324C9AC84438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C66CB3E04875BC1C255326C7ADB2D78 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECD94EB658408EAB639A8B305F4DA79 /* Debug */,
+				50578562CB4D9ABA8620420C08C638C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7038AA417730F350CD16F29B20BEF4 /* Build configuration list for PBXNativeTarget "JJMaterialTextField-JJMaterialTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F1A5EED4BE5171EAE93A90391BE714 /* Debug */,
+				A27B9D025A0B94265F8F37C0FA5D0665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4018E5763DFDE7ED11873E80A53EC5 /* Build configuration list for PBXNativeTarget "JJMaterialTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D10AF9CE99708F16DF28FDBB6420E8 /* Debug */,
+				AFD51F844682558BF449E69C5BD1C159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
