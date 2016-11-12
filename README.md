@@ -6,8 +6,10 @@ Tareas
 
 Tarea 1 
 MyCalculator
+Tarea 2
+MyMultiply
 
-
-Quiz
+Quizes
 
 Quiz2
+Quiz3
