@@ -13,7 +13,7 @@
 +(NSMutableArray*)getMyMultiply:(int)number{
 
     NSMutableArray *mutable = [[NSMutableArray alloc] init];
-    for (int i = 1; i <= 15; i++)
+    for (int i = 1; i <= 50; i++)
     {
         MyTable* numberObj = [MyTable alloc];
         numberObj.number = [NSString stringWithFormat:@"%d",number] ;

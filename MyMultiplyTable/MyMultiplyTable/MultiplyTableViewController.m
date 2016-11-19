@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.tableResult = [MyTable getMyMultiply:7];
+    self.tableResult = [MyTable getMyMultiply:8];
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
 }
