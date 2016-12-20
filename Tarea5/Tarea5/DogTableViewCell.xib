@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="130" id="KGk-i7-Jjw" customClass="DogTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="129"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PET-3Z-EVq">
+                        <rect key="frame" x="5" y="5" width="128" height="119.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0EM-qv-kEC">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="119.5"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0EM-qv-kEC" firstAttribute="top" secondItem="PET-3Z-EVq" secondAttribute="top" id="IJc-wz-X8i"/>
+                            <constraint firstItem="0EM-qv-kEC" firstAttribute="leading" secondItem="PET-3Z-EVq" secondAttribute="leading" id="gsg-yh-CJj"/>
+                            <constraint firstAttribute="trailing" secondItem="0EM-qv-kEC" secondAttribute="trailing" id="iFr-7Q-0cv"/>
+                            <constraint firstAttribute="bottom" secondItem="0EM-qv-kEC" secondAttribute="bottom" id="uNz-cb-NWV"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pzd-49-prD">
+                        <rect key="frame" x="139" y="5" width="176" height="119.5"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="XHx-3k-gh3">
+                                <rect key="frame" x="0.0" y="0.0" width="176" height="119.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H07-DD-uca">
+                                        <rect key="frame" x="0.0" y="0.0" width="176" height="40"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ni1-NS-WH5">
+                                        <rect key="frame" x="0.0" y="40" width="176" height="39.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGB-Ai-lQc">
+                                        <rect key="frame" x="0.0" y="79.5" width="176" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="XHx-3k-gh3" secondAttribute="trailing" id="2K3-2q-aFy"/>
+                            <constraint firstItem="XHx-3k-gh3" firstAttribute="top" secondItem="Pzd-49-prD" secondAttribute="top" id="8xb-ba-lE8"/>
+                            <constraint firstItem="XHx-3k-gh3" firstAttribute="leading" secondItem="Pzd-49-prD" secondAttribute="leading" id="hsv-eU-WE4"/>
+                            <constraint firstAttribute="bottom" secondItem="XHx-3k-gh3" secondAttribute="bottom" id="u5I-mr-yVK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Pzd-49-prD" secondAttribute="bottom" constant="5" id="838-bt-I4l"/>
+                    <constraint firstAttribute="trailing" secondItem="Pzd-49-prD" secondAttribute="trailing" constant="5" id="KTD-SH-BYj"/>
+                    <constraint firstItem="PET-3Z-EVq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="QdW-5I-V8v"/>
+                    <constraint firstAttribute="bottom" secondItem="PET-3Z-EVq" secondAttribute="bottom" constant="5" id="RhJ-OY-0Fc"/>
+                    <constraint firstItem="PET-3Z-EVq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="RqP-Eq-vTC"/>
+                    <constraint firstItem="Pzd-49-prD" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.55" id="hDq-tM-uEQ"/>
+                    <constraint firstItem="Pzd-49-prD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="owx-tr-Kqo"/>
+                    <constraint firstItem="PET-3Z-EVq" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.4" id="yEb-Hp-lQk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ivDogImage" destination="0EM-qv-kEC" id="5Mv-Kc-jro"/>
+                <outlet property="lblDate" destination="GGB-Ai-lQc" id="iTe-tf-g4d"/>
+                <outlet property="lblDogColor" destination="Ni1-NS-WH5" id="aAW-en-2CA"/>
+                <outlet property="lblDogName" destination="H07-DD-uca" id="G2m-LX-D7f"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
